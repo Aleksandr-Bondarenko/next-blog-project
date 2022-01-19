@@ -34,7 +34,8 @@ export default function Post({ postData }) {
         {/* <h1 className={utilStyles.headingXl}>{postData.title}</h1> */}
         <h1 className={utilStyles.headingXl}>HELLO</h1>
         <div className={utilStyles.lightText}>
-          <Date dateStr={postData.date} />
+          {/* <Date dateStr={postData.date} /> */}
+          <Date dateStr="2022-1-6" />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
