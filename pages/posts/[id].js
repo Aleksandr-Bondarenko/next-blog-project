@@ -27,15 +27,15 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-        {/* <title>{postData.title}</title> */}
-        <title>HELLO</title>
+        <title>{postData.title}</title>
+        {/* <title>HELLO</title> */}
       </Head>
       <article>
-        {/* <h1 className={utilStyles.headingXl}>{postData.title}</h1> */}
-        <h1 className={utilStyles.headingXl}>HELLO</h1>
+        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        {/* <h1 className={utilStyles.headingXl}>HELLO</h1> */}
         <div className={utilStyles.lightText}>
-          {/* <Date dateStr={postData.date} /> */}
-          <Date dateStr="2022-1-6" />
+          <Date dateStr={postData.date} />
+          {/* <Date dateStr="2022-1-6" /> */}
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
