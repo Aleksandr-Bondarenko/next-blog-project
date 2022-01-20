@@ -5,7 +5,7 @@ import Link from "next/link";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 
-const name = "Aleksandr Bondarenko";
+const name = "Bruce Willis";
 export const siteTitle = "Next.js Sample Website";
 
 export default function Layout({ children, home }) {
